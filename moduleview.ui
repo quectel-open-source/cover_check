@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Moduleview</class>
+ <widget class="QWidget" name="Moduleview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>471</width>
+     <height>376</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="horizontalSpacing">
+     <number>10</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>20</number>
+    </property>
+    <property name="topMargin">
+     <number>20</number>
+    </property>
+    <property name="rightMargin">
+     <number>20</number>
+    </property>
+    <property name="bottomMargin">
+     <number>20</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="disabledLabel">
+      <property name="text">
+       <string>轴承型号：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>607Z</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="labelPositionLabel_3">
+      <property name="text">
+       <string>检测位置：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_2">
+      <item>
+       <property name="text">
+        <string>端面</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>外环面</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>凹坑面</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>新建项目</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>缺陷类别</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="comboBox_3">
+      <item>
+       <property name="text">
+        <string>aaaa</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bbbb</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ccccc</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ddddd</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="useThemeColorsLabel_3">
+      <property name="text">
+       <string>geshu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <property name="text">
+       <string>0.75</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>缺陷长度阈值：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>缺陷面积阈值：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>缺陷灰度阈值：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <property name="text">
+       <string>确认设置</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,1 @@
+Debug: File:(../cover_check/videopanel.cpp) Line:(2427) This is a debug message1 (2023-05-30 15:51:09 周二)rnDebug: File:(../cover_check/videopanel.cpp) Line:(2428) This is a debug message2 (2023-05-30 15:51:09 周二)rnDebug: File:(../cover_check/form/frmmain.cpp) Line:(291) "0.0%" (2023-05-30 15:51:12 周二)rn

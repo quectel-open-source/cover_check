@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Outview</class>
+ <widget class="QWidget" name="Outview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>511</width>
+     <height>317</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="horizontalSpacing">
+     <number>10</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>20</number>
+    </property>
+    <property name="topMargin">
+     <number>20</number>
+    </property>
+    <property name="rightMargin">
+     <number>20</number>
+    </property>
+    <property name="bottomMargin">
+     <number>20</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="disabledLabel">
+      <property name="text">
+       <string>串口通信:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelPositionLabel_3">
+      <property name="text">
+       <string>串口号:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="comboBox_3">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>COM1</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="labelTextLabel_2">
+      <property name="text">
+       <string>波特率：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>9600</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="useThemeColorsLabel_3">
+      <property name="text">
+       <string>数据位：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="comboBox_5">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>校验位：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="comboBox_6">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>NONE</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>停止位：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>输出策略：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>NG输出</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>输出内容</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

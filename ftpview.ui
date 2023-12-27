@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ftpview</class>
+ <widget class="QWidget" name="Ftpview">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>531</width>
+     <height>742</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="horizontalSpacing">
+     <number>10</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>20</number>
+    </property>
+    <property name="topMargin">
+     <number>20</number>
+    </property>
+    <property name="rightMargin">
+     <number>20</number>
+    </property>
+    <property name="bottomMargin">
+     <number>20</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelPositionLabel_3">
+      <property name="text">
+       <string>本地存图:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelTextLabel_2">
+      <property name="text">
+       <string>存储目录：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="comboBox_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="useThemeColorsLabel_3">
+      <property name="text">
+       <string>图像格式：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_5">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>JPG</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>存图策略：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>NG存图</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>NG存图</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>图片类型：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="comboBox_6">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>文件名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>产线序号_帧序号_时间</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>保存天数：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QSpinBox" name="spinBox">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(14, 34, 59);
+border-color: rgb(0, 105, 176);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>确认设置</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="SwitchButton" name="switchBtn3" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>60</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SwitchButton</class>
+   <extends>QWidget</extends>
+   <header>switchbutton.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
